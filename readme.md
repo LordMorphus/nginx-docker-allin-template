@@ -47,7 +47,19 @@ NGINX user settings
 
 ## ⚙️ Useful commands
 
-Clean up docker-dache
+Node in container
+
+```bash
+docker-compose exec node
+```
+
+Composer in container
+
+```bash
+docker-compose exec php
+```
+
+Clean up docker-cache
 
 ```bash
 docker builder prune
@@ -59,3 +71,5 @@ Remove docker container & images
 docker rm -f $(docker ps -a -q)
 docker rmi -f $(docker images -q)
 ```
+
+
