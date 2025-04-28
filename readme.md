@@ -7,7 +7,7 @@ Basic configuration for a docker project based on NGINX webserver with PHP, NODE
 - PHP 8.4
 - Node (LTS)
 - MySQL 9.2.0
-- PHPMyAdmin 5.2.2
+- PHPMyAdmin 5.2.2 
 
 ## 🚀 Installation
 Launch the following command in your terminal while inside any folder:

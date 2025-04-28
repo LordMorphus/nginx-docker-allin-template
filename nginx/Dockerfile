@@ -1,4 +1,4 @@
-FROM nginx:1.27.3
+FROM nginx:1.27.5
 
 ARG UID
 ARG GID
