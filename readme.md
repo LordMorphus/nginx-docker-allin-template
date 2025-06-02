@@ -8,6 +8,7 @@ Basic configuration for a docker project based on NGINX webserver with PHP, NODE
 - Node (LTS)
 - MySQL 9.2.0
 - PHPMyAdmin 5.2.2 
+- NGINX 1.28.0
 
 ## 🚀 Installation
 Launch the following command in your terminal while inside any folder:
@@ -21,6 +22,8 @@ While docker is launched, type the following command inside the cloned project f
 ```bash
 docker-compose up -d
 ```
+
+Access server with ```localhost:3000``` if Hot Reloading is desired; otherwise use standard NGINX  ```localhost```
 
 ## ⚙️ Configuration
 

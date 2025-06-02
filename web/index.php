@@ -42,7 +42,7 @@ $message = 'Welcome to your NGINX-Node-PHP-MySQL application!';
         <div class="info">
             <p>PHP Version: <?php echo phpversion(); ?></p>
             <p>Server Software: <?php echo $_SERVER['SERVER_SOFTWARE']; ?></p>
-            <p>Have fun at web developing</p>
+            <p>Have fun at web developing!</p>
         </div>
     </div>
 </body>
